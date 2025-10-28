@@ -1,0 +1,46 @@
+device: "mps"      
+num_epochs: 10
+learning_rate: 3e-4
+
+batch_size: 256
+num_workers: 8
+grad_clip: 1.0
+
+teacher_forcing:
+  initial: 1.0        # starting probability (p_tf)
+  decay: 0.90         # multiply p_tf by this each epoch
+  min: 0.20           # lower bound for p_tf
+
+logging:
+  run_desc: ""        # appended to timestamped run dir
+  log_dir: "runs"     # SummaryWriter base directory
+  log_every_steps: 50
+
+# checkpointing:
+#   enabled: true
+#   dir: "artifacts/checkpoints"
+
+seed: 100
+
+data:
+  train_path: "/path/to/train"
+  val_path: "/path/to/val"
+  cache_dir: "cache"
+
+# model:
+#   name: ""
+#   d_in: 16
+#   T_out: 30
+#   d_model: 128
+#   nhead: 4
+#   nlayers: 2
+#   ff_mult: 4
+#   dropout: 0.1
+#   decoder_dim: 128
+
+optim:
+  name: "adam"
+  weight_decay: 0.0
+
+scheduler:
+  name: null      
