@@ -111,6 +111,7 @@ class Plotter:
         plt.title(f"Play {play_id} — Game {game_id} (GT vs Prediction)")
         plt.xlabel("x (yards)"); plt.ylabel("y (yards)")
         #plt.xlim(0, 120); plt.ylim(0, 53.3)
+        #plt.xlim(60, 90); plt.ylim(25, 50)
         plt.grid(True, linestyle=":")
         plt.legend(loc="best")
         plt.tight_layout()
