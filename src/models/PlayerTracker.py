@@ -1,5 +1,3 @@
-"""Transformer-based trajectory predictor for tracked NFL players."""
-
 import math
 import torch
 import torch.nn as nn
