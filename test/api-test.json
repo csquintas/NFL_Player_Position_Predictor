@@ -1,0 +1,32 @@
+{
+  "hist": [
+    {"position": [41.56, 40.15], "velocity": 0.06, "accel": 0.19, "player_orientation": 103.57, "player_motion_direction": 17.92, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.57, 40.15], "velocity": 0.09, "accel": 0.35, "player_orientation": 102.84, "player_motion_direction": 71.79, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.59, 40.16], "velocity": 0.2, "accel": 0.57, "player_orientation": 104.65, "player_motion_direction": 83.73, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.62, 40.17], "velocity": 0.4, "accel": 1.01, "player_orientation": 103.36, "player_motion_direction": 74.76, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.67, 40.18], "velocity": 0.6, "accel": 1.39, "player_orientation": 99.93, "player_motion_direction": 83.0, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.75, 40.18], "velocity": 0.83, "accel": 1.58, "player_orientation": 97.6, "player_motion_direction": 86.62, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.85, 40.19], "velocity": 1.19, "accel": 2.17, "player_orientation": 92.51, "player_motion_direction": 80.62, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [41.98, 40.22], "velocity": 1.5, "accel": 2.43, "player_orientation": 90.41, "player_motion_direction": 79.55, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [42.14, 40.25], "velocity": 1.86, "accel": 2.79, "player_orientation": 89.19, "player_motion_direction": 77.59, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [42.34, 40.3], "velocity": 2.29, "accel": 3.05, "player_orientation": 88.22, "player_motion_direction": 74.67, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [42.59, 40.37], "velocity": 2.75, "accel": 3.38, "player_orientation": 90.94, "player_motion_direction": 71.88, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [42.86, 40.46], "velocity": 3.15, "accel": 3.36, "player_orientation": 89.71, "player_motion_direction": 70.39, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [43.18, 40.57], "velocity": 3.5, "accel": 3.08, "player_orientation": 89.71, "player_motion_direction": 70.61, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [43.52, 40.69], "velocity": 3.8, "accel": 2.52, "player_orientation": 86.3, "player_motion_direction": 70.84, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [43.9, 40.82], "velocity": 4.13, "accel": 2.28, "player_orientation": 83.38, "player_motion_direction": 70.87, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [44.3, 40.96], "velocity": 4.36, "accel": 1.84, "player_orientation": 79.97, "player_motion_direction": 70.03, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [44.72, 41.12], "velocity": 4.62, "accel": 1.74, "player_orientation": 77.59, "player_motion_direction": 68.83, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [45.15, 41.3], "velocity": 4.74, "accel": 1.33, "player_orientation": 76.97, "player_motion_direction": 66.82, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [45.58, 41.51], "velocity": 4.76, "accel": 1.8, "player_orientation": 65.54, "player_motion_direction": 62.58, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [46.0, 41.74], "velocity": 4.8, "accel": 2.51, "player_orientation": 56.72, "player_motion_direction": 58.52, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [46.4, 42.01], "velocity": 4.84, "accel": 3.19, "player_orientation": 47.54, "player_motion_direction": 53.56, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [46.78, 42.32], "velocity": 4.92, "accel": 3.74, "player_orientation": 18.89, "player_motion_direction": 47.52, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [47.13, 42.67], "velocity": 4.98, "accel": 4.34, "player_orientation": 308.04, "player_motion_direction": 40.8, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [47.44, 43.06], "velocity": 5.01, "accel": 4.34, "player_orientation": 279.93, "player_motion_direction": 35.39, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]},
+    {"position": [47.7, 43.49], "velocity": 5.09, "accel": 4.34, "player_orientation": 276.74, "player_motion_direction": 29.53, "absolute_yardline": 44, "ball_land_position": [42.04, 40.03]}
+  ],
+  "last_known_xy": [47.7, 43.49],
+  "frames_to_predict": 21,
+  "create_image": true
+}
