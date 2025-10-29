@@ -1,0 +1,8 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+numpy==2.3.4
+pandas==2.3.3
+joblib==1.5.2
+pydantic==2.9.2
+torch==2.9.0
+matplotlib==3.10.7
