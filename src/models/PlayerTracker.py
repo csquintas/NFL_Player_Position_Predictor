@@ -70,8 +70,7 @@ class PlayerTrackerTransformer(nn.Module):
         return encoded_prethrow
 
     def forward(self, hist, padded_frame_mask, last_xy):
-        """Autoregressively predict future XY coordinates.
-
+        """
         Args:
             hist: Batch of history tensors `[B, F, d_in]`(batches, frames, # of features).
             padded_frame_mask: Key padding mask `[B, F]` with True for padded positions.
