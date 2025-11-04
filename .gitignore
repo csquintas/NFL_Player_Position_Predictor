@@ -210,4 +210,5 @@ __marimo_/_
 *all_sequences.csv
 objects/
 *notes.txt
+runs/*
 .DS_Store

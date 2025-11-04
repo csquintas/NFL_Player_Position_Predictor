@@ -184,7 +184,8 @@ class BuildDataset:
         max_out_frames: int = 100,
         export_dir: str | None = None,
         keep_unscored: bool = True,
-        export_split: bool = False
+        export_split: bool = False,
+        use_target: bool = True
     ):
         """Build per-player sequences from raw data CSVs
 
@@ -195,6 +196,7 @@ class BuildDataset:
             export_dir: Optional directory to write sample/sequence CSV exports.
             keep_unscored: If False, drop players without any scored target frames.
             export_split: When exporting, additionally write split predict/non-predict CSVs.
+            use_target: Use the df_out Dataframe
 
         Returns:
             List of dictionaries with frame history, target, and metadata.
@@ -218,7 +220,7 @@ class BuildDataset:
         T = # of frames in batch's target (to predict)
         T_max = Max # of frames in batch's target (to predict)
         """
-        out_gpn = df_out.groupby(['game_id','play_id','nfl_id'])
+        out_gpn = df_out.groupby(['game_id','play_id','nfl_id']) if use_target else None
 
         player_sequences = []
         export_rows_samples, export_rows_long = [], []
@@ -257,10 +259,16 @@ class BuildDataset:
 
             # targets (post-throw)
             key = (gid, pid, nid)
-            has_target = key in out_gpn.indices
+            if use_target:
+                has_target = key in out_gpn.indices
+            else:
+                has_target = False
+
             tgtT, out_mask = None, None
             nfo = 0; T = 0
-
+            
+            nfo = int(g['num_frames_output'].iloc[0])  
+            
             if has_target:
                 gout = out_gpn.get_group(key).sort_values('frame_id')
                 tgt = gout[['x','y']].to_numpy().astype(np.float32)
